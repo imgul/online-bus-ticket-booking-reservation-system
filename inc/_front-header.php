@@ -16,49 +16,36 @@
                         <nav>
                             <ul class="main-menu">
                                 <li class="<?php if ($page == 'index') echo 'active'; ?>"><a href="index.php">HOME</a>
-                                    <!--Dropdown Menu Start-->
-                                    <!-- <ul>
-                                        <li><a href="index.html">Home Page 1</a></li>
-                                        <li><a href="index-2.html">Home Page 2</a></li>
-                                    </ul> -->
-                                    <!--Dropdown Menu End-->
-                                </li>
-                                <!-- <li><a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="single-blog.html">Blog details</a></li>
-                                        <li><a href="blog-no-sidebar.html">Blog NO Sidebar</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left</a></li>
-                                    </ul>
-                                </li> -->
                                 <li class="<?php if ($page == 'contact') echo 'active'; ?>"><a href="contact.php">Contact</a></li>
                                 <?php
                                 // show menu only if not logged in
                                 if (!isset($_SESSION['loggedIn'])) {
-                                    echo '<li class="';
                                 ?>
+                                    <li class="<?php if ($page == 'login') echo 'active'; ?>"><a href="login.php">Login</a></li>
+                                    <li class="<?php if ($page == 'register') echo 'active'; ?>"><a href="register.php">Register</a></li>
                                 <?php
-                                    echo '"><a href="login.php">Login</a></li>
-											<li><a href="register.php">Register</a></li>';
                                 }
-                                ?>
+                                ?> <?php
+                                    // show menu only when logged in
+                                    if (isset($_SESSION['loggedIn'])) {
+                                    ?>
+                                    <li class="<?php if ($page == 'login') echo 'active'; ?>"><a href="#">My Account</a>
+                                        <ul>
+                                            <li class="<?php if ($page == 'bookings') echo 'active'; ?>"><a href="bookings.php">My Bookings</a></li>
+                                            <li class="<?php if ($page == 'newbooking') echo 'active'; ?>"><a href="newbooking.php">New Booking</a></li>
+                                            <li><a class="logoutBtn" href="#">Logout</a></li>
+                                            <li class="<?php if ($page == 'forgot-password') echo 'active'; ?>"><a href="forgot-password.php">Forgot Password</a></li>
+                                        </ul>
+                                    </li>
+                                    <?php
+                                        // show menu only if logged in and is admin
+                                        if (isset($_SESSION['loggedIn']) && $_SESSION['user_role'] == 1) {
+                                            echo '<li><a href="admin/index.php">Admin Panel</a></li>';
+                                        }
+                                    ?>
                                 <?php
-                                // show menu only when logged in
-                                if (isset($_SESSION['loggedIn'])) {
-                                    echo '<li class=""><a href="blog.html">My Account</a>
-											<!--Dropdown Menu Start-->
-											<ul>
-												<li><a href="bookings.php">My Bookings</a></li>
-												<li><a href="newbooking.php">New Booking</a></li>
-												<li><a class="logoutBtn" href="#">Logout</a></li>
-												<li><a href="forgot-password.php">Forgot Password</a></li>
-											</ul>
-											<!--Dropdown Menu End-->
-										</li>';
-                                }
-
+                                    }
                                 ?>
-
                             </ul>
                         </nav>
                     </div>

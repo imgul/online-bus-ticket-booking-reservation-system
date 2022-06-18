@@ -9,7 +9,7 @@ if (mysqli_num_rows($resultrtSql))
 $routeJson = json_encode($arr);
 
 // Customer JSON
-$ctSql = "Select * from customers";
+$ctSql = "Select * from users where is_admin = 0";
 $resultctSql = mysqli_query($conn, $ctSql);
 $arr = array();
 if (mysqli_num_rows($resultctSql))
@@ -43,7 +43,7 @@ while ($row = mysqli_fetch_assoc($resultBookingSql))
 $bookingJson = json_encode($arr);
 
 // Admin JSON
-$adminSql = "SELECT * from users";
+$adminSql = "SELECT * from users where is_admin = 1";
 $resultAdminSql = mysqli_query($conn, $adminSql);
 $arr = array();
 while ($row = mysqli_fetch_assoc($resultAdminSql))

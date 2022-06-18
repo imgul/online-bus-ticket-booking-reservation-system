@@ -241,103 +241,6 @@ require 'inc/_info.php';
 			</div>
 			<!--Bus Colection Area End-->
 		</div>
-		<!--Our Favorite Bus Area End-->
-		<?php
-		/*
-		echo '<!--Our Awesome Services Area Start-->
-		<div class="our-awesome-services pb-100">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<!--Section Title Start-->
-						<div class="section-title text-center">
-							<span>We Are “UoS Bus”</span>
-							<h3>our awesome services</h3>
-						</div>
-						<!--Section Title End-->
-					</div>
-				</div>
-				<div class="row align-items-center no-gutters service-bg-color">
-					<div class="col-lg-7">
-						<!--Service Area Start-->
-						<div class="tab-content" id="myTabContent">
-							<div class="tab-pane fade show active" id="spa" role="tabpanel">
-								<div class="service-img img-fuul">
-									<img src="assets/img/service/service1.png" alt="">
-								</div>
-							</div>
-							<div class="tab-pane fade" id="restaurent" role="tabpanel">
-								<div class="service-img img-fuul">
-									<img src="assets/img/service/service2.png" alt="">
-								</div>
-							</div>
-							<div class="tab-pane fade" id="swimming" role="tabpanel">
-								<div class="service-img img-fuul">
-									<img src="assets/img/service/service3.png" alt="">
-								</div>
-							</div>
-							<div class="tab-pane fade" id="conference" role="tabpanel">
-								<div class="service-img img-fuul">
-									<img src="assets/img/service/service6.png" alt="">
-								</div>
-							</div>
-						</div>
-						<!--Service Area End-->
-					</div>
-					<div class="col-lg-5 service-bg">
-						<!--Service Tab Menu Area Start-->
-						<div class="service-menu-area">
-							<ul class="nav">
-								<li>
-									<a class="active" data-bs-toggle="tab" href="#spa">
-										<span class="service-icon">
-											<img src="assets/img/icon/service-icon1.png" alt="">
-										</span>
-										<span class="service-title">Spa, beauty & Health</span>
-										<span class="text"><span>Spa and beauty</span> luptatem quia voluptas sit
-											aspernatur aut odit aut fugit, sed quia </span>
-									</a>
-								</li>
-								<li>
-									<a class="" data-bs-toggle="tab" href="#restaurent">
-										<span class="service-icon">
-											<img src="assets/img/icon/service-icon2.png" alt="">
-										</span>
-										<span class="service-title">Restaurant</span>
-										<span class="text"><span>Restaurant</span> lup provide grro tatem quia voluptas
-											sit aspernatur aut odit aut fugit, sed quia </span>
-									</a>
-								</li>
-								<li>
-									<a data-bs-toggle="tab" href="#swimming">
-										<span class="service-icon">
-											<img src="assets/img/icon/service-icon3.png" alt="">
-										</span>
-										<span class="service-title">Swimming Pool</span>
-										<span class="text"><span>Swimming</span> pool luptatem quia voluptas sit
-											aspernatur aut odit aut fugit, sed quia </span>
-									</a>
-								</li>
-								<li>
-									<a data-bs-toggle="tab" href="#conference">
-										<span class="service-icon">
-											<img src="assets/img/icon/service-icon4.png" alt="">
-										</span>
-										<span class="service-title">Conference Hall</span>
-										<span class="text"><span>Conference</span> luptatem quia voluptas sit aspernatur
-											aut odit aut fugit, sed quia </span>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<!--Service Tab Menu Area End-->
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--Our Awesome Services Area End-->';
-		*/
-		?>
 		<!--Fun Factor Area Start-->
 		<div class="fun-factor-area fun-bg mb-95">
 			<div class="container">
@@ -345,7 +248,7 @@ require 'inc/_info.php';
 					<div class="col-md-3 col-sm-6">
 						<div class="single-funfactor mb-30 text-center">
 							<div class="icon">
-								<i class="zmdi zmdi-account-o"></i>
+								<i class="fas fa-smile"></i>
 							</div>
 							<div class="fun-facttor-number">
 								<h2><span class="counter">869</span>+</h2>
@@ -356,7 +259,7 @@ require 'inc/_info.php';
 					<div class="col-md-3 col-sm-6">
 						<div class="single-funfactor mb-30 text-center">
 							<div class="icon">
-								<i class="zmdi zmdi-accounts-outline"></i>
+								<i class="fas fa-heart"></i>
 							</div>
 							<div class="fun-facttor-number">
 								<h2><span class="counter">769</span></h2>
@@ -367,7 +270,7 @@ require 'inc/_info.php';
 					<div class="col-md-3 col-sm-6">
 						<div class="single-funfactor mb-30 text-center">
 							<div class="icon">
-								<i class="zmdi zmdi-star-outline"></i>
+								<i class="fas fa-star"></i>
 							</div>
 							<div class="fun-facttor-number">
 								<h2><span class="counter">179</span></h2>
@@ -378,7 +281,7 @@ require 'inc/_info.php';
 					<div class="col-md-3 col-sm-6">
 						<div class="single-funfactor mb-30 text-center">
 							<div class="icon">
-								<i class="zmdi zmdi-drink"></i>
+								<i class="fas fa-bus-alt"></i>
 							</div>
 							<div class="fun-facttor-number">
 								<h2><span class="counter">745</span></h2>
