@@ -3132,7 +3132,7 @@ h4.small-title {
     16. Breadcrumb Area CSS
 --------------------------------*/
 .breadcrumb-banner-area {
-	background: rgba(0, 0, 0, 0) url("img/bg/bg1.jpg") no-repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) url("assets/img/bg/bg1.jpg") no-repeat scroll 0 0;
 	color: #ffffff;
 	padding: 100px 0;
 	position: relative;

@@ -301,7 +301,7 @@ $conn = db_connect();
     <footer class="sticky-footer bg-white">
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-                <span>Copyright &copy; Uos Bus Ticket Reservation System 2022-23</span>
+                <span>Copyright &copy; UoS Bus <?php echo date('Y'); ?></span>
             </div>
         </div>
     </footer>
