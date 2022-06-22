@@ -254,7 +254,7 @@
         swal({
             title: "Are you sure?",
             text: "You want to logout from your account!",
-            icon: "success",
+            icon: "warning",
             buttons: [
                 "Cancel",
                 "Yes, logout!"

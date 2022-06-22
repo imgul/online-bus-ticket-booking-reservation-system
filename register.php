@@ -131,10 +131,10 @@ require 'inc/_alert.php';
 								</div>
 								<div class="form-group row">
 									<div class="col-sm-6 mb-3 mb-sm-0">
-										<input name="password" type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" required>
+										<input name="password" type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" minlength="8" maxlength="22" required>
 									</div>
 									<div class="col-sm-6">
-										<input name="cpassword" type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password" required>
+										<input name="cpassword" type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password" minlength="8" maxlength="22" required>
 									</div>
 								</div>
 								<button type="submit" name="register" class="btn btn-primary btn-user btn-block">
