@@ -1,13 +1,18 @@
 <?php require 'inc/_info.php'; ?>
+<?php
+session_start();
+
+// Alert Messages
+require 'inc/_alert.php';
+require 'inc/_info.php';
+?>
 <!doctype html>
 <html class="no-js" lang="en">
-
-<!-- Mirrored from htmldemo.net/picklu/picklu/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jun 2022 15:22:08 GMT -->
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Contact || Picklu</title>
+	<title>Contact || <?= $website_name; ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Place favicon.ico in the root directory -->
@@ -161,6 +166,8 @@
 	<script src="js/plugins.js"></script>
 	<!--Ajax Mail-->
 	<script src="js/ajax.mail.js"></script>
+	<!-- Sweet Alert -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!--Main Js-->
 	<script src="js/main.js"></script>
 </body>

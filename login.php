@@ -74,7 +74,7 @@ require 'inc/_alert.php';
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Login | UoS Bus</title>
+	<title>Login | <?= $website_name; ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Place favicon.ico in the root directory -->
@@ -87,11 +87,6 @@ require 'inc/_alert.php';
 	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 	<!-- Animate CSS-->
 	<link rel="stylesheet" href="css/plugins.css">
-	<!-- Bootstrap CSS-->
-	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-	<!-- google fonts -->
-	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet"> -->
 	<!-- Font-awesome -->
 	<link rel="stylesheet" href="admin/vendor/fontawesome-free/css/all.min.css">
 	<!-- Bootstrap CSS -->
@@ -195,6 +190,8 @@ require 'inc/_alert.php';
 	<script src="js/plugins.js"></script>
 	<!--Ajax Mail-->
 	<script src="js/ajax.mail.js"></script>
+	<!-- Sweet Alert -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!-- Sweet Alert -->
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!--Main Js-->

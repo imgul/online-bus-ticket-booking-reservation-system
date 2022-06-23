@@ -6,7 +6,7 @@
                 <!--Header Logo Start-->
                 <div class="col-lg-3 col-md-6">
                     <div class="header-logo">
-                        <a href="index.php"><img src="assets/img/logo/uosbus.png" alt=""></a>
+                        <a href="index.php"><img src="assets/img/logo/logo.png" alt=""></a>
                     </div>
                 </div>
                 <!--Header Logo End-->
@@ -34,7 +34,6 @@
                                             <li class="<?php if ($page == 'bookings') echo 'active'; ?>"><a href="bookings.php">My Bookings</a></li>
                                             <li class="<?php if ($page == 'newbooking') echo 'active'; ?>"><a href="newbooking.php">New Booking</a></li>
                                             <li><a class="logoutBtn" href="#">Logout</a></li>
-                                            <li class="<?php if ($page == 'forgot-password') echo 'active'; ?>"><a href="forgot-password.php">Forgot Password</a></li>
                                         </ul>
                                     </li>
                                     <?php

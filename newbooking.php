@@ -59,7 +59,7 @@ if (isset($_POST['book-ticket'])) {
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Book Ticket | UoS Bus</title>
+	<title>Book Ticket | <?= $website_name; ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Place favicon.ico in the root directory -->
@@ -68,15 +68,6 @@ if (isset($_POST['book-ticket'])) {
 
 	<!-- Material Design Iconic Font CSS-->
 	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-	<!-- Font Awesome CSS-->
-	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-	<!-- Animate CSS-->
-	<link rel="stylesheet" href="css/plugins.css">
-	<!-- Bootstrap CSS-->
-	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-	<!-- google fonts -->
-	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet"> -->
 	<!-- Font-awesome -->
 	<link rel="stylesheet" href="./assets/vendor/fontawesome-free/css/fontawesome.min.css">
 	<!-- Bootstrap CSS -->
@@ -189,6 +180,8 @@ if (isset($_POST['book-ticket'])) {
 	<script src="js/plugins.js"></script>
 	<!--Ajax Mail-->
 	<script src="js/ajax.mail.js"></script>
+	<!-- Sweet Alert -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!-- Sweet Alert -->
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!--Main Js-->

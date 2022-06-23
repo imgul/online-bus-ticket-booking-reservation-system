@@ -8,9 +8,9 @@
                         <!--Single Footer Widget Start-->
                         <div class="single-footer-widget mb-35">
                             <div class="footer-title">
-                                <h3>UoS Bus System</h3>
+                                <h3><?= $website_name; ?> Bus System</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim erat ut
+                            <p><?= $website_name; ?> dior sit amet, consectetur adipiscing elit. Duis dignissim erat ut
                                 laoreet pharetra....</p>
                             <div class="contact-info">
                                 <ul>
@@ -46,12 +46,12 @@
                                 <h3>Newsletter</h3>
                             </div>
                             <div class="footer-mailchimp">
-                                <form action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="popup-subscribe-form validate" target="_blank" novalidate>
+                                <form action="inc/_newsletterHandler.php" method="POST" id="mc-embedded-subscribe-form" class="popup-subscribe-form validate">
                                     <div id="mc_embed_signup_scroll">
                                         <div id="mc-form" class="mc-form subscribe-form">
-                                            <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email here" />
+                                            <input id="mc-email" name="mc-email" type="email" placeholder="Enter your email here" required>
                                             <span class="icon"><i class="fa fa-angle-right"></i></span>
-                                            <button id="mc-submit">Subscribe</button>
+                                            <button type="submit" name="mc-email-btn" id="mc-submit">Subscribe</button>
                                         </div>
                                     </div>
                                 </form>
@@ -79,12 +79,12 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="footer-copyright">
-                            <p>Copyright &copy; <a href="#">Picklo.</a> All Rights Reserved</p>
+                            <p>Copyright &copy; <a href="#"><?= $website_name; ?>.</a> All Rights Reserved</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="footer-design-by text-right">
-                            <p>Designed by HasTech.company</p>
+                            <p>Designed and Developed by: <?= $developer_name; ?></p>
                         </div>
                     </div>
                 </div>

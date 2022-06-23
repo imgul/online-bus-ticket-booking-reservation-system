@@ -10,10 +10,18 @@ function db_connect()
     $servername = 'localhost';
     $username = 'root';
     $password = '';
-    $database = 'uosbus';
+    $database = 'bustick';
 
     $conn = mysqli_connect($servername, $username, $password, $database);
     return $conn;
+}
+
+function test_input($data)
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
 }
 
 function exist_user($conn, $email)

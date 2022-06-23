@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Forgot Password | UoS Bus</title>
+	<title>Forgot Password | <?= $website_name; ?>s</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Place favicon.ico in the root directory -->
@@ -118,6 +118,8 @@
 	<script src="js/plugins.js"></script>
 	<!--Ajax Mail-->
 	<script src="js/ajax.mail.js"></script>
+	<!-- Sweet Alert -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!-- Sweet Alert -->
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!--Main Js-->

@@ -12,7 +12,7 @@ require 'inc/_info.php';
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>UoS Bus | Bus Ticket Reservation System</title>
+	<title><?= $website_name; ?> | <?= $website_tagline; ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Place favicon.ico in the root directory -->
@@ -57,7 +57,7 @@ require 'inc/_info.php';
 				<!--Single Slider Start-->
 				<div class="single-slider" style="background-image: url(assets/img/slider/slider1.jpg)">
 					<div class="hero-slider-content">
-						<h1>welcome to UoS Bus</h1>
+						<h1>welcome to <?= $website_name; ?></h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua. Ut enim </p>
 					</div>
@@ -66,7 +66,7 @@ require 'inc/_info.php';
 				<!--Single Slider Start-->
 				<div class="single-slider" style="background-image: url(assets/img/slider/slider2.jpg)">
 					<div class="hero-slider-content">
-						<h1>UoS Bus Ticket System</h1>
+						<h1><?= $website_name; ?> Bus Ticket System</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua. Ut enim </p>
 					</div>
@@ -81,12 +81,12 @@ require 'inc/_info.php';
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="about-container">
-							<h3>Welcome to <span>UoS Bus, <br> the haven</span> of your weekend</h3>
-							<p><span>UoS Bus</span> luptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+							<h3>Welcome to <span><?= $website_name; ?>, <br> the haven</span> of your weekend</h3>
+							<p><span><?= $website_name; ?></span> luptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
 								consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
 								quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
 								quia non numquam eius</p>
-							<p><span>UoS Bus</span> luptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+							<p><span><?= $website_name; ?></span> luptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
 								consequuntur magni dolores eos qui ratione voluptatem</p>
 							<a href="#">EXPLORE</a>
 						</div>
@@ -99,7 +99,7 @@ require 'inc/_info.php';
 							<div class="secound-iamge-area">
 								<img src="assets/img/about/about1.png" alt="">
 								<div class="welcome-title">
-									<h3>WELCOME TO “UoS Bus”</h3>
+									<h3>WELCOME TO “<?= $website_name; ?>”</h3>
 								</div>
 							</div>
 						</div>
@@ -115,7 +115,7 @@ require 'inc/_info.php';
 					<div class="col-12">
 						<!--Section Title Start-->
 						<div class="section-title text-center">
-							<span>We Are “UoS Bus”</span>
+							<span>We Are <?= $website_name; ?>”</span>
 							<h3>our favorite buses</h3>
 						</div>
 						<!--Section Title End-->
@@ -300,7 +300,7 @@ require 'inc/_info.php';
 					<div class="col-12">
 						<!--Section Title Start-->
 						<div class="section-title text-center">
-							<span>We Are “UoS Bus”</span>
+							<span>We Are “<?= $website_name; ?>”</span>
 							<h3>our special staff</h3>
 						</div>
 						<!--Section Title End-->
@@ -395,7 +395,7 @@ require 'inc/_info.php';
 					<div class="col-12">
 						<!--Section Title Start-->
 						<div class="section-title text-center">
-							<span>We Are “UoS Bus”</span>
+							<span>We Are “<?= $website_name; ?>”</span>
 							<h3>our gallery</h3>
 						</div>
 						<!--Section Title End-->
@@ -421,7 +421,7 @@ require 'inc/_info.php';
 						<div class="portfoloi">
 							<div class="portfoloi-content">
 								<div class="portfoloi__inner">
-									<h2><a href="#">UoS Bus Trip </a></h2>
+									<h2><a href="#"><?= $website_name; ?> Trip </a></h2>
 									<p>Trip from University</p>
 								</div>
 							</div>
@@ -434,7 +434,7 @@ require 'inc/_info.php';
 						<div class="portfoloi">
 							<div class="portfoloi-content">
 								<div class="portfoloi__inner">
-									<h2><a href="#">UoS Bus Trip </a></h2>
+									<h2><a href="#"><?= $website_name; ?> Trip </a></h2>
 									<p>Trip from University</p>
 								</div>
 							</div>
@@ -447,7 +447,7 @@ require 'inc/_info.php';
 						<div class="portfoloi">
 							<div class="portfoloi-content">
 								<div class="portfoloi__inner">
-									<h2><a href="#">UoS Bus Trip </a></h2>
+									<h2><a href="#"><?= $website_name; ?> Trip </a></h2>
 									<p>Trip from University</p>
 								</div>
 							</div>
@@ -460,7 +460,7 @@ require 'inc/_info.php';
 						<div class="portfoloi">
 							<div class="portfoloi-content">
 								<div class="portfoloi__inner">
-									<h2><a href="#">UoS Bus Trip </a></h2>
+									<h2><a href="#"><?= $website_name; ?> Trip </a></h2>
 									<p>Trip from University</p>
 								</div>
 							</div>
@@ -473,7 +473,7 @@ require 'inc/_info.php';
 						<div class="portfoloi">
 							<div class="portfoloi-content">
 								<div class="portfoloi__inner">
-									<h2><a href="#">UoS Bus Trip </a></h2>
+									<h2><a href="#"><?= $website_name; ?> Trip </a></h2>
 									<p>Trip from University</p>
 								</div>
 							</div>
@@ -486,7 +486,7 @@ require 'inc/_info.php';
 						<div class="portfoloi">
 							<div class="portfoloi-content">
 								<div class="portfoloi__inner">
-									<h2><a href="#">UoS Bus Trip </a></h2>
+									<h2><a href="#"><?= $website_name; ?> Trip </a></h2>
 									<p>Trip from University</p>
 								</div>
 							</div>
@@ -505,7 +505,7 @@ require 'inc/_info.php';
 					<div class="col-12">
 						<!--Section Title Start-->
 						<div class="section-title text-center">
-							<span>We Are “UoS Bus”</span>
+							<span>We Are “<?= $website_name; ?>”</span>
 							<h3>Our Pricing</h3>
 						</div>
 						<!--Section Title End-->
@@ -599,7 +599,7 @@ require 'inc/_info.php';
 					<div class="col-12">
 						<!--Section Title Start-->
 						<div class="section-title text-center">
-							<span>We Are “UoS Bus”</span>
+							<span>We Are “<?= $website_name; ?>”</span>
 							<h3>Latest News</h3>
 						</div>
 						<!--Section Title End-->
@@ -727,15 +727,8 @@ require 'inc/_info.php';
 	<script src="js/ajax.mail.js"></script>
 	<!-- Sweet Alert -->
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-	<!-- Core plugin JavaScript-->
-	<!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
-	<!-- Custom scripts from Admin Dashboard-->
-	<!-- <script src="admin/js/sb-admin-2.js"></script> -->
 	<!--Main Js-->
 	<script src="js/main.js"></script>
-	<script>
-
-	</script>
 </body>
 
 </html>
